@@ -8,6 +8,7 @@ const config = {
     'user': 'sa',
     'password': 'password8189',
     'server': '172.31.45.10',
+    'port': 1433,
     'database': 'Albander',
     'dialect': 'mssql',
     'options': {
