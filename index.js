@@ -58,10 +58,6 @@ require('./routes/finance.routes.js')(app);
 //const port = process.env.PORT || 5001;
 //app.listen(port, () => console.log(`listening on port ${port}…`));
 
-let port = process.env.PORT;
-if (port == null || port == "") {
-  port = 5001;
-}
-app.listen(port, function(){
+app.listen(process.env.PORT || 5000, function(){
     console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
