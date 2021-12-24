@@ -49,9 +49,9 @@ app.get('/', (req, res) => {
 });
 
 require('./routes/clubservice.routes.js')(app);
-require('./Routes/users.routes.js')(app);
-require('./Routes/lookup.routes.js')(app);
-require('./Routes/crm.routes.js')(app);
+require('./routes/users.routes.js')(app);
+require('./routes/lookup.routes.js')(app);
+require('./routes/crm.routes.js')(app);
 require('./routes/finance.routes.js')(app);
 
 //ENVIRONMENT VARIABLE
