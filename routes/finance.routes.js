@@ -1,5 +1,5 @@
 module.exports = (app) => {
-  const financeController = require('../Controllers/finance.controllers')
+  const financeController = require('../controllers/finance.controllers')
 
   app.get('/api/coa/getCustomerAcc/:fyear', financeController.getCustomerAcc);
 

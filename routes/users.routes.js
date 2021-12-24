@@ -1,5 +1,5 @@
 module.exports = (app) => {
-    const UsrContrllr = require('../Controllers/users.controllers');
+    const UsrContrllr = require('../controllers/users.controllers');
 
     //1. GET REQUEST
     app.get('/api/users', UsrContrllr.getAllUsers);
